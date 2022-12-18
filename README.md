@@ -1,15 +1,22 @@
 # ABANDONED
+Author: Victoria Price
+
+Last Update: December 18, 2022
+
 
 ## Description
 This is the technical documentation for ABANDONED, my final project for Introduction to Applied Programming (CSS 225) with Dr. Tovar. 
 ABANDONED is a game about a cat that has been abandoned by her owner. The cat is left to fend for herself in a cold, dark alley. The user will play as the cat, helping her overcome obstacles, enemies, and find her new forever home.
 
+
 ## Hosting
 The files containing the Python code that built this game are located here in this GitHub repository. 
 There is also a console to run the game that is hosted on [PythonAnywhere](https://www.pythonanywhere.com/user/foxydelta/consoles/26655844/) for your convenience.
 
+
 ## Installation
 To install this game, download this repository from GitHub as a .ZIP file. It will likely download as ABANDONED-main.zip. When it is finished downloading, decompress the .ZIP file. You will now have a folder named ABANDONED-main. Move the folder to a convenient directly that you can easily access. Open your Command Prompt or Terminal and change the directory to the location where you moved the folder.
+
 
 ## Setup & How to Play
 There are two ways to play this game. The first way is to go the console hosted on [PythonAnywhere](https://www.pythonanywhere.com/user/foxydelta/consoles/26655844/).
@@ -44,15 +51,17 @@ The code for this game has very deliberately been given extensive documentation 
 * chapter5.py contains the module for Chapter 5.
 
 
-
 ## External Services
 There are no external services for this particular project.
+
 
 ## Credit
 I, Victoria Price, am the original author of all of the files and lines of code within this repository.
 
+
 ## Maintenance
 If you would like to help maintain this code, please email me. This project was built during a 10-week Computer Science course at National Louis University. In this course, the students, including myself, were introduced to the Python programming language. The course placed emphasis on clean code, debugging, looping, and modular programming. If you encounter any bugs during the execution of the game, please notify me so that I can fix the code and roll out a new and improved version on here. The code is meant to be simple and readable, so don't overthink it!
+
 
 ## License 
 This project is licensed under GNU GPLv3. Please feel free to read the license document that is included below.
