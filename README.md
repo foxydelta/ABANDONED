@@ -32,6 +32,19 @@ Python 3 must be installed on your PC in order to be able to run this program an
 ## Coding & Naming Conventions
 The code for this game has very deliberately been given extensive documentation in the form of comments. The code essentially explains itself, but the comments add additional readability and will help preserve the idea behind each block of code for posterity. Variables are named descriptively based on the value they hold or the process they run. The variables are all very English-like, which helps make the code readable, even for someone who may not be familiar with Python programming. The variables are all written in lowercase. Most of the variables are named using underscores to separate words. Some file names may be written in camelcase.
 
+## Architecture/File Overview
+* main.py is the file that the user must run in order to play the game.
+* startgame.py is the file that welcomes the player to the game upon startup.
+* globalvariables.py contains all global variables that are used throughout the game for keeping track of the player's progress.
+* functions.py contains two very important functions that are used throughout the game. One of these functions, game_over, tracks whether or not to the game should end (either due to player's request or due to a failure to try again to pass an obstacle). The other function, random_event, is used to randomly ask the player a riddle. There is a 1/5 chance for the user to be riddled in Chapters 1 through 4. Each riddle is an even number (2, 4, 6, 8, or 10) that could possibly be chosen via the randint(1, 11) (which is a range that contains the values: 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10).
+* chapter1.py contains the module for Chapter 1.
+* chapter2.py contains the module for Chapter 2.
+* chapter3.py contains the module for Chapter 3.
+* chapter4.py contains the module for Chapter 4.
+* chapter5.py contains the module for Chapter 5.
+
+
+
 ## External Services
 There are no external services for this particular project.
 
