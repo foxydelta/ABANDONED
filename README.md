@@ -8,10 +8,20 @@ ABANDONED is a game about a cat that has been abandoned by her owner. The cat is
 The files containing the Python code that built this game are located here in this GitHub repository. 
 There is also a console to run the game that is hosted on [PythonAnywhere](https://www.pythonanywhere.com/user/foxydelta/consoles/26655844/) for your convenience.
 
-## Setup & How to Play
-There are two ways to play this game. The first way is to go the console hosted on PythonAnywhere that is linked above. 
-The second way is to download the repository to your PC, open the Command Prompt or Terminal, and type in the following command: python3 maingame.py
+## Installation
+To install this game, download this repository from GitHub as a .ZIP file. It will likely download as ABANDONED-main.zip. When it is finished downloading, decompress the .ZIP file. You will now have a folder named ABANDONED-main. Move the folder to a convenient directly that you can easily access. Open your Command Prompt or Terminal and change the directory to the location where you moved the folder.
 
+## Setup & How to Play
+There are two ways to play this game. The first way is to go the console hosted on [PythonAnywhere](https://www.pythonanywhere.com/user/foxydelta/consoles/26655844/).
+The second way is to download the repository to your PC, open the Command Prompt or Terminal, navigate to the directory where ABANDONED-main is located, and type in the following command: python3 main.py
+
+Here's the full tutorial of how I did it on my MacBook Pro that is running macOS Monterey.
+1. Download ABANDONED-main.zip
+2. Decompress/unzip ABANDONED-main.zip
+3. Move the ABANDONED-main folder to my personal user directory: (/Users/a1398)
+4. Open Terminal
+5. Type in: cd /Users/a1398/ABANDONED
+6. Type in: python3 main.py
 
 ## Languages & Technologies
 This game was built in PyCharm using Python 3.11.1. 
@@ -20,7 +30,7 @@ This game was built in PyCharm using Python 3.11.1.
 Python 3 must be installed on your PC in order to be able to run this program and play the game. The game uses very little resources and runs directly from your PC's Terminal.
 
 ## Coding & Naming Conventions
-Variables are named descriptively based on the value they hold or the process they run. The variables are all very English-like, which helps make the code readable, even for someone who may not be familiar with Python programming. The variables are all written in lowercase. Most of the variables are named using underscores to separate words. Some file names may be written in camelcase.
+The code for this game has very deliberately been given extensive documentation in the form of comments. The code essentially explains itself, but the comments add additional readability and will help preserve the idea behind each block of code for posterity. Variables are named descriptively based on the value they hold or the process they run. The variables are all very English-like, which helps make the code readable, even for someone who may not be familiar with Python programming. The variables are all written in lowercase. Most of the variables are named using underscores to separate words. Some file names may be written in camelcase.
 
 ## External Services
 There are no external services for this particular project.
